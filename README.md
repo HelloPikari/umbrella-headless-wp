@@ -20,7 +20,7 @@ This headless wordpress setup is based on Bedrock which is a modern WordPress st
 
 # Installation
 
-## 1. Setup a new **Local** site with the following configuration:
+## 1. Setup a new **Local** site with the following configuration
 
 - Site name, i.e. `Umbrella Family Headless WP`
   - Advanced Options: Ensure local site domain ends in .test
@@ -57,25 +57,23 @@ Using your file browser or terminal, navigate to the installation directory of y
 2. Rename the `.env.example` file to `.env` in the `app/public` folder and open the file in your code editor
    1. Update `DB_NAME`, `DB_USER`, `DB_PASSWORD` and `WP_HOME` to include new details which can be found in Local
    2. Update `ACF_PRO_KEY` with the key supplied to you
-   3. Update the salts by going to https://roots.io/salts.html and copy/paste the `Env Format` keys that are generated to your .env file
+   3. Update the salts by going to <https://roots.io/salts.html> and copy/paste the `Env Format` keys that are generated to your .env file
 3. Update the **site.conf.hbs** found in _/conf/nginx/_ and comment out `root “{{root}}“;` and directly below type `root “AbsolutePathToYourProjectName/app/public/web”;`. **NOTE LINE ENDINGS REQUIRE A SEMI-COLON**
 4. Restart your Local site
 
 ## Install Composer Dependencies
 
-1. In a terminal window, navigate to the app folder in your WP site and run: `composer install`. This will install the required Wordpress version and Plugins
+In a terminal window, navigate to the app folder in your WP site and run: `composer install`. This will install the required Wordpress version and Plugins. Some plugins may require a github-oauth key. Follow the prompts to aquire one.
 
-## 🥳 You should be good to go - try browsing the site
+🥳 You should be good to go - try browsing the site
 
----
+# Usage
 
 ## Troubleshooting
 
-**Q:** Composer output is saying your php version (version #) does not satify that requirement
+**Q:** Composer output is saying your php version (version #) does not satisfy that requirement
 
 **A:** Make sure your php version is ^7.4
-
----
 
 ## This setup is based on Bedrock, more details can be found in their documentation
 
