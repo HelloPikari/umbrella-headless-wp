@@ -1,3 +1,4 @@
+<br />
 <p align="center">
   <a href="https://roots.io/bedrock/">
     <img alt="Bedrock" src="https://app.umbrellafamily.com/assets/img/umbrella-logo-horizontal.svg" height="70">
