@@ -63,7 +63,7 @@ Using your file browser or terminal, navigate to the installation directory of y
 
 ## Install Composer Dependencies
 
-In a terminal window, navigate to the app folder in your WP site and run: `composer install`. This will install the required Wordpress version and Plugins. Some plugins may require a github-oauth key. Follow the prompts to aquire one.
+In a terminal window, navigate to the app folder in your WP site and run: `composer install`. This will install the required Wordpress version and Plugins. Some plugins may require a github-oauth key. Follow the prompts to acquire one.
 
 🥳 You should be good to go - try browsing the site
 
@@ -74,6 +74,10 @@ In a terminal window, navigate to the app folder in your WP site and run: `compo
 **Q:** Composer output is saying your php version (version #) does not satisfy that requirement
 
 **A:** Make sure your php version is ^7.4
+
+**Q:** When I try browsing to the GraphQL endpoint, I can a critical error notice
+
+**A:** Make sure you have updated the GraphQL Gutenberg block registry in your WP admin
 
 ## This setup is based on Bedrock, more details can be found in their documentation
 
