@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://roots.io/bedrock/">
+  <a href="https://umbrellafamily.com">
     <img alt="Bedrock" src="https://app.umbrellafamily.com/assets/img/umbrella-logo-horizontal.svg" height="70">
   </a>
 </p>
