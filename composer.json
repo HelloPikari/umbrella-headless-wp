@@ -54,7 +54,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:spacedmonkey/wp-rest-blocks"
+            "url": "git@github.com:WebDevStudios/custom-post-type-ui"
         }
     ],
     "require": {
