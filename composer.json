@@ -73,7 +73,10 @@
         "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn": "^2.7",
         "wpackagist-plugin/wp-algolia": "^4.0",
         "wpackagist-plugin/polylang": "^3.0",
-        "advanced-custom-fields/advanced-custom-fields-pro": "^5.0"
+        "advanced-custom-fields/advanced-custom-fields-pro": "^5.0",
+        "yoast/wordpress-seo": "^16.4",
+        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^3.0",
+        "wpackagist-plugin/add-wpgraphql-seo": "^4.14"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
