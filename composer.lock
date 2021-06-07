@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1ec4e85ea9ec5b622b1f085726f92e9",
+    "content-hash": "064165e9bc75a4416597523cb8a67776",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -2060,15 +2060,15 @@
         },
         {
             "name": "wpackagist-plugin/add-wpgraphql-seo",
-            "version": "4.14.0",
+            "version": "4.14.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/add-wpgraphql-seo/",
-                "reference": "tags/4.14.0"
+                "reference": "tags/4.14.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/add-wpgraphql-seo.4.14.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/add-wpgraphql-seo.4.14.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2129,6 +2129,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/polylang/"
+        },
+        {
+            "name": "wpackagist-plugin/postmark-approved-wordpress-plugin",
+            "version": "1.13.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/postmark-approved-wordpress-plugin/",
+                "reference": "tags/1.13.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/postmark-approved-wordpress-plugin.1.13.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/postmark-approved-wordpress-plugin/"
         },
         {
             "name": "wpackagist-plugin/wp-algolia",

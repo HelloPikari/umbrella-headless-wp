@@ -76,7 +76,8 @@
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.0",
         "yoast/wordpress-seo": "^16.4",
         "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^3.0",
-        "wpackagist-plugin/add-wpgraphql-seo": "^4.14"
+        "wpackagist-plugin/add-wpgraphql-seo": "^4.14",
+        "wpackagist-plugin/postmark-approved-wordpress-plugin": "^1.13"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
