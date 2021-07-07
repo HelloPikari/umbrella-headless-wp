@@ -80,7 +80,8 @@
         "wpackagist-plugin/postmark-approved-wordpress-plugin": "^1.13",
         "wpackagist-plugin/taxonomy-terms-order": "1.5.7.6",
         "wpackagist-plugin/simple-page-ordering": "^2.3",
-        "wpackagist-plugin/duplicate-post": "^4.1"
+        "wpackagist-plugin/duplicate-post": "^4.1",
+        "imranhsayed/headless-cms": "^1.7"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
