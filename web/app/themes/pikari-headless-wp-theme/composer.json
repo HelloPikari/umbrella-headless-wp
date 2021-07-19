@@ -1,8 +1,0 @@
-{
-  "name": "arissberg/pikari-headless-wp-theme",
-  "description": "A headless WordPress theme",
-  "type": "wordpress-theme",
-  "require": {
-      "composer/installers": "~1.0"
-  }
-}
