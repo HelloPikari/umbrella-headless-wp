@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c2412b055bfaba403ecc95c670265e2",
+    "content-hash": "a2b33be25d1e8a73df017c9692eed487",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -247,6 +247,54 @@
                 }
             ],
             "time": "2020-12-03T15:47:16+00:00"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro",
+            "version": "2.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=2.0.4"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro-cli",
+            "version": "1.4.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-cli&version=1.4.1"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro-media-files",
+            "version": "2.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-media-files&version=2.0.2"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains-plugin/wp-migrate-db-pro-theme-plugin-files",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-theme-plugin-files&version=1.1.1"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -502,46 +550,6 @@
                 }
             ],
             "time": "2020-04-13T13:17:36+00:00"
-        },
-        {
-            "name": "imranhsayed/headless-cms",
-            "version": "1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/imranhsayed/headless-cms.git",
-                "reference": "25e10c1bc8e8acb199a28aa94b79f312ac8b7aff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/imranhsayed/headless-cms/zipball/25e10c1bc8e8acb199a28aa94b79f312ac8b7aff",
-                "reference": "25e10c1bc8e8acb199a28aa94b79f312ac8b7aff",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Imran Sayed",
-                    "email": "codeytek.academy@gmail.com"
-                }
-            ],
-            "description": "A WordPress plugin that adds features to use WordPress as a headless CMS with any front-end environment using REST API",
-            "homepage": "https://github.com/imranhsayed/headless-cms",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/imranhsayed/headless-cms/issues",
-                "source": "https://github.com/imranhsayed/headless-cms/tree/1.7.0"
-            },
-            "time": "2021-04-25T19:08:07+00:00"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -827,12 +835,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "88c4d972f82b364386c98eebecf38512708a4de4"
+                "reference": "fc5e5d772af47d035df8178172391259b6e30566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/88c4d972f82b364386c98eebecf38512708a4de4",
-                "reference": "88c4d972f82b364386c98eebecf38512708a4de4",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/fc5e5d772af47d035df8178172391259b6e30566",
+                "reference": "fc5e5d772af47d035df8178172391259b6e30566",
                 "shasum": ""
             },
             "conflict": {
@@ -1005,7 +1013,7 @@
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
-                "pimcore/pimcore": "<6.8.8",
+                "pimcore/pimcore": "<10.0.7",
                 "pocketmine/pocketmine-mp": "<3.15.4",
                 "pressbooks/pressbooks": "<5.18",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
@@ -1195,7 +1203,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-12T17:14:45+00:00"
+            "time": "2021-07-13T18:03:10+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -1955,16 +1963,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.5.1",
+            "version": "v1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "551ffd8d4089234081d728774988b93a1967506c"
+                "reference": "79adb03ae10f08a2645e2670e3c2e71743f21463"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/551ffd8d4089234081d728774988b93a1967506c",
-                "reference": "551ffd8d4089234081d728774988b93a1967506c",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/79adb03ae10f08a2645e2670e3c2e71743f21463",
+                "reference": "79adb03ae10f08a2645e2670e3c2e71743f21463",
                 "shasum": ""
             },
             "require": {
@@ -2030,9 +2038,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.5.1"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.5.3"
             },
-            "time": "2021-07-08T19:57:00+00:00"
+            "time": "2021-07-15T19:42:33+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
@@ -2118,15 +2126,15 @@
         },
         {
             "name": "wpackagist-plugin/add-wpgraphql-seo",
-            "version": "4.14.2",
+            "version": "4.15.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/add-wpgraphql-seo/",
-                "reference": "tags/4.14.2"
+                "reference": "tags/4.15.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/add-wpgraphql-seo.4.14.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/add-wpgraphql-seo.4.15.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"

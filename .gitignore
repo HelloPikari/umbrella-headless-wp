@@ -17,6 +17,7 @@ web/.htaccess
 .env
 .env.*
 !.env.example
+auth.json
 
 # Composer
 /vendor
