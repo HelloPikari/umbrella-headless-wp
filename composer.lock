@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2b33be25d1e8a73df017c9692eed487",
+    "content-hash": "6494e92c15ccc844b735a020617b5f12",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -17,6 +17,31 @@
                 "ffraenz/private-composer-installer": "^5.0"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "arissberg/pikari-headless-wp-theme",
+            "version": "v1.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arissberg/pikari-headless-wp-theme.git",
+                "reference": "9027e5bf1452c968927fc85c530f6889b0e9b30b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arissberg/pikari-headless-wp-theme/zipball/9027e5bf1452c968927fc85c530f6889b0e9b30b",
+                "reference": "9027e5bf1452c968927fc85c530f6889b0e9b30b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "description": "A headless WordPress theme",
+            "support": {
+                "source": "https://github.com/arissberg/pikari-headless-wp-theme/tree/v1.0-beta.1",
+                "issues": "https://github.com/arissberg/pikari-headless-wp-theme/issues"
+            },
+            "time": "2021-07-19T20:21:54+00:00"
         },
         {
             "name": "composer/installers",
@@ -2220,11 +2245,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/postmark-approved-wordpress-plugin/",
-                "reference": "trunk"
+                "reference": "tags/1.13.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/postmark-approved-wordpress-plugin.zip?timestamp=1625677206"
+                "url": "https://downloads.wordpress.org/plugin/postmark-approved-wordpress-plugin.1.13.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
