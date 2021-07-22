@@ -84,7 +84,7 @@
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.0",
         "yoast/wordpress-seo": "^16.4",
         "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^3.0",
-        "wpackagist-plugin/add-wpgraphql-seo": "^4.14",
+        "wpackagist-plugin/add-wpgraphql-seo": "^4.15",
         "wpackagist-plugin/postmark-approved-wordpress-plugin": "^1.13",
         "wpackagist-plugin/taxonomy-terms-order": "1.5.7.6",
         "wpackagist-plugin/simple-page-ordering": "^2.3",
@@ -93,7 +93,8 @@
         "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
         "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
         "deliciousbrains-plugin/wp-migrate-db-pro-theme-plugin-files": "*",
-        "arissberg/pikari-headless-wp-theme": "dev-master"
+        "arissberg/pikari-headless-wp-theme": "dev-master",
+        "wpackagist-plugin/acf-extended": "0.8.8.4"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
@@ -109,15 +110,18 @@
         "installer-paths": {
             "web/app/mu-plugins/{$name}/": [
                 "type:wordpress-muplugin",
-                "wpackagist-plugin/classic-editor",
                 "wp-graphql/wp-graphql",
                 "pristas-peter/wp-graphql-gutenberg",
-                "cloudinary/cloudinary_php",
                 "wp-graphql/wp-graphql-acf",
                 "gatsbyjs/wp-gatsby",
                 "webdevstudios/custom-post-type-ui",
+                "advanced-custom-fields/advanced-custom-fields-pro",
+                "wpackagist-plugin/acf-extended",
+                "wpackagist-plugin/add-wpgraphql-seo",
+                "wpackagist-plugin/classic-editor",
+                "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
                 "wpackagist-plugin/wp-algolia",
-                "advanced-custom-fields/advanced-custom-fields-pro"
+                "yoast/wordpress-seo"
             ],
             "web/app/plugins/{$name}/": [
                 "type:wordpress-plugin"
