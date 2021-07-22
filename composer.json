@@ -93,7 +93,7 @@
         "deliciousbrains-plugin/wp-migrate-db-pro-cli": "*",
         "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
         "deliciousbrains-plugin/wp-migrate-db-pro-theme-plugin-files": "*",
-        "arissberg/pikari-headless-wp-theme": "^1.0"
+        "arissberg/pikari-headless-wp-theme": "@dev"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
