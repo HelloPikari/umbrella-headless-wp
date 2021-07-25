@@ -93,7 +93,8 @@
         "deliciousbrains-plugin/wp-migrate-db-pro-media-files": "*",
         "deliciousbrains-plugin/wp-migrate-db-pro-theme-plugin-files": "*",
         "arissberg/pikari-headless-wp-theme": "dev-master",
-        "wpackagist-plugin/acf-extended": "0.8.8.4"
+        "wpackagist-plugin/acf-extended": "0.8.8.4",
+        "wpackagist-plugin/add-wpgraphql-seo": "^4.15"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
