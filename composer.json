@@ -84,7 +84,6 @@
         "advanced-custom-fields/advanced-custom-fields-pro": "^5.0",
         "yoast/wordpress-seo": "^16.4",
         "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^3.0",
-        "wpackagist-plugin/add-wpgraphql-seo": "^4.15",
         "wpackagist-plugin/postmark-approved-wordpress-plugin": "^1.13",
         "wpackagist-plugin/taxonomy-terms-order": "1.5.7.6",
         "wpackagist-plugin/simple-page-ordering": "^2.3",
