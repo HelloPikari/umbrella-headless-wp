@@ -94,7 +94,8 @@
         "deliciousbrains-plugin/wp-migrate-db-pro-theme-plugin-files": "*",
         "arissberg/pikari-headless-wp-theme": "dev-master",
         "wpackagist-plugin/acf-extended": "0.8.8.4",
-        "wpackagist-plugin/add-wpgraphql-seo": "^4.15"
+        "wpackagist-plugin/add-wpgraphql-seo": "^4.15",
+        "wpackagist-plugin/safe-svg": "^1.9"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5.8",
@@ -120,6 +121,7 @@
                 "wpackagist-plugin/add-wpgraphql-seo",
                 "wpackagist-plugin/classic-editor",
                 "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
+                "wpackagist-plugin/safe-svg",
                 "wpackagist-plugin/wp-algolia",
                 "yoast/wordpress-seo"
             ],
