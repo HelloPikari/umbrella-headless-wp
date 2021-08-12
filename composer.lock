@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba914053f878c1b6d19a265950e10020",
+    "content-hash": "9233220ee76c14385e43c5e0a03f6ebc",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -24,12 +24,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arissberg/pikari-headless-wp-theme.git",
-                "reference": "84b1e6789d08144cff660ba1168757ce9a0ec083"
+                "reference": "02e838ab279d89aaecc3661485a1bfa59d87adbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arissberg/pikari-headless-wp-theme/zipball/84b1e6789d08144cff660ba1168757ce9a0ec083",
-                "reference": "84b1e6789d08144cff660ba1168757ce9a0ec083",
+                "url": "https://api.github.com/repos/arissberg/pikari-headless-wp-theme/zipball/02e838ab279d89aaecc3661485a1bfa59d87adbe",
+                "reference": "02e838ab279d89aaecc3661485a1bfa59d87adbe",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
                 "source": "https://github.com/arissberg/pikari-headless-wp-theme/tree/master",
                 "issues": "https://github.com/arissberg/pikari-headless-wp-theme/issues"
             },
-            "time": "2021-07-26T19:24:17+00:00"
+            "time": "2021-08-02T20:02:16+00:00"
         },
         {
             "name": "composer/installers",
@@ -276,10 +276,10 @@
         },
         {
             "name": "deliciousbrains-plugin/wp-migrate-db-pro",
-            "version": "2.0.4",
+            "version": "2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=2.0.4"
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=2.1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -288,10 +288,10 @@
         },
         {
             "name": "deliciousbrains-plugin/wp-migrate-db-pro-cli",
-            "version": "1.4.1",
+            "version": "1.5",
             "dist": {
                 "type": "zip",
-                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-cli&version=1.4.1"
+                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro-cli&version=1.5"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -861,12 +861,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "52a126190a36bc9236846f5d42e10bff9ff60d72"
+                "reference": "6da216d969efa7e52cc7d0af125b8c8bb9caed25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/52a126190a36bc9236846f5d42e10bff9ff60d72",
-                "reference": "52a126190a36bc9236846f5d42e10bff9ff60d72",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6da216d969efa7e52cc7d0af125b8c8bb9caed25",
+                "reference": "6da216d969efa7e52cc7d0af125b8c8bb9caed25",
                 "shasum": ""
             },
             "conflict": {
@@ -899,7 +899,7 @@
                 "composer/composer": "<1.10.22|>=2-alpha.1,<2.0.13",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/core": ">=2,<3.5.39",
-                "contao/core-bundle": ">=4,<4.4.52|>=4.5,<4.9.16|>=4.10,<4.11.5|= 4.10.0",
+                "contao/core-bundle": ">=4,<4.4.56|>=4.5,<4.9.18|>=4.10,<4.11.7|= 4.10.0",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "craftcms/cms": "<3.6.7",
                 "croogo/croogo": "<3.0.7",
@@ -916,7 +916,7 @@
                 "doctrine/mongodb-odm": ">=1,<1.0.2",
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1|>=2.8.3,<2.8.4",
-                "dolibarr/dolibarr": "<11.0.4",
+                "dolibarr/dolibarr": "<14",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
                 "drupal/core": ">=7,<7.80|>=8,<8.9.14|>=9,<9.0.12|>=9.1,<9.1.7",
                 "drupal/drupal": ">=7,<7.80|>=8,<8.9.14|>=9,<9.0.12|>=9.1,<9.1.7",
@@ -963,6 +963,7 @@
                 "gos/web-socket-bundle": "<1.10.4|>=2,<2.6.1|>=3,<3.3",
                 "gree/jose": "<=2.2",
                 "gregwar/rst": "<1.0.3",
+                "grumpydictator/firefly-iii": "<5.5.13",
                 "guzzlehttp/guzzle": ">=4-rc.2,<4.2.4|>=5,<5.3.1|>=6,<6.2.1",
                 "illuminate/auth": ">=4,<4.0.99|>=4.1,<=4.1.31|>=4.2,<=4.2.22|>=5,<=5.0.35|>=5.1,<=5.1.46|>=5.2,<=5.2.45|>=5.3,<=5.3.31|>=5.4,<=5.4.36|>=5.5,<5.5.10",
                 "illuminate/cookie": ">=4,<=4.0.11|>=4.1,<=4.1.99999|>=4.2,<=4.2.99999|>=5,<=5.0.99999|>=5.1,<=5.1.99999|>=5.2,<=5.2.99999|>=5.3,<=5.3.99999|>=5.4,<=5.4.99999|>=5.5,<=5.5.49|>=5.6,<=5.6.99999|>=5.7,<=5.7.99999|>=5.8,<=5.8.99999|>=6,<6.18.31|>=7,<7.22.4",
@@ -984,6 +985,7 @@
                 "laminas/laminas-http": "<2.14.2",
                 "laravel/framework": "<6.20.26|>=7,<8.40",
                 "laravel/socialite": ">=1,<1.0.99|>=2,<2.0.10",
+                "lavalite/cms": "<=5.8",
                 "league/commonmark": "<0.18.3",
                 "league/flysystem": "<1.1.4|>=2,<2.1.1",
                 "lexik/jwt-authentication-bundle": "<2.10.7|>=2.11,<2.11.3",
@@ -1029,7 +1031,7 @@
                 "paragonie/random_compat": "<2",
                 "passbolt/passbolt_api": "<2.11",
                 "paypal/merchant-sdk-php": "<3.12",
-                "pear/archive_tar": "<1.4.12",
+                "pear/archive_tar": "<1.4.14",
                 "personnummer/personnummer": "<3.0.2",
                 "phanan/koel": "<5.1.4",
                 "phpfastcache/phpfastcache": ">=5,<5.0.13",
@@ -1140,12 +1142,13 @@
                 "thelia/thelia": ">=2.1-beta.1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
+                "topthink/think": "<=6.0.9",
                 "tribalsystems/zenario": "<8.8.53370",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.28|>=10,<10.4.18|>=11,<11.3.1",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.29|>=10,<10.4.19|>=11,<11.3.2",
                 "typo3/cms-backend": ">=7,<=7.6.50|>=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
-                "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<7.6.52|>=8,<8.7.41|>=9,<9.5.28|>=10,<10.4.18|>=11,<11.3.1",
+                "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<7.6.52|>=8,<8.7.41|>=9,<9.5.29|>=10,<10.4.19|>=11,<11.3.2",
                 "typo3/cms-form": ">=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.12|>=3.1,<3.1.10|>=3.2,<3.2.13|>=3.3,<3.3.13|>=4,<4.0.6",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4|>=2.3,<2.3.99|>=3,<3.0.20|>=3.1,<3.1.18|>=3.2,<3.2.14|>=3.3,<3.3.23|>=4,<4.0.17|>=4.1,<4.1.16|>=4.2,<4.2.12|>=4.3,<4.3.3",
@@ -1232,7 +1235,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-26T22:02:34+00:00"
+            "time": "2021-08-11T16:04:32+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -1623,16 +1626,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.23.0",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "2df51500adbaebdc4c38dea4c89a2e131c45c8a1"
+                "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2df51500adbaebdc4c38dea4c89a2e131c45c8a1",
-                "reference": "2df51500adbaebdc4c38dea4c89a2e131c45c8a1",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9174a3d80210dca8daa7f31fec659150bbeabfc6",
+                "reference": "9174a3d80210dca8daa7f31fec659150bbeabfc6",
                 "shasum": ""
             },
             "require": {
@@ -1683,7 +1686,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.23.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.23.1"
             },
             "funding": [
                 {
@@ -1699,20 +1702,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-05-27T09:27:20+00:00"
+            "time": "2021-05-27T12:26:48+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.23.0",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "eca0bf41ed421bed1b57c4958bab16aa86b757d0"
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/eca0bf41ed421bed1b57c4958bab16aa86b757d0",
-                "reference": "eca0bf41ed421bed1b57c4958bab16aa86b757d0",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
                 "shasum": ""
             },
             "require": {
@@ -1766,7 +1769,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.1"
             },
             "funding": [
                 {
@@ -1782,7 +1785,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-19T12:13:01+00:00"
+            "time": "2021-07-28T13:41:28+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1992,16 +1995,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v1.5.5",
+            "version": "v1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "4973fa9dbadc7cc246e2c6cfab44047133ffd70b"
+                "reference": "43a86e1a59ef044c6dd5870cb60534474872a33b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/4973fa9dbadc7cc246e2c6cfab44047133ffd70b",
-                "reference": "4973fa9dbadc7cc246e2c6cfab44047133ffd70b",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/43a86e1a59ef044c6dd5870cb60534474872a33b",
+                "reference": "43a86e1a59ef044c6dd5870cb60534474872a33b",
                 "shasum": ""
             },
             "require": {
@@ -2067,9 +2070,9 @@
             "description": "GraphQL API for WordPress",
             "support": {
                 "issues": "https://github.com/wp-graphql/wp-graphql/issues",
-                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.5.5"
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/v1.6.2"
             },
-            "time": "2021-07-22T20:06:59+00:00"
+            "time": "2021-08-04T17:16:54+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-acf",
@@ -2244,6 +2247,24 @@
             "homepage": "https://wordpress.org/plugins/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/"
         },
         {
+            "name": "wpackagist-plugin/custom-post-type-permalinks",
+            "version": "3.4.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-post-type-permalinks/",
+                "reference": "tags/3.4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-permalinks.3.4.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-type-permalinks/"
+        },
+        {
             "name": "wpackagist-plugin/disable-responsive-images-complete",
             "version": "2.2",
             "source": {
@@ -2281,15 +2302,15 @@
         },
         {
             "name": "wpackagist-plugin/polylang",
-            "version": "3.0.6",
+            "version": "3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/3.0.6"
+                "reference": "tags/3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.3.0.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/polylang.3.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2438,16 +2459,16 @@
         },
         {
             "name": "yoast/wordpress-seo",
-            "version": "16.7",
+            "version": "16.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast-dist/wordpress-seo.git",
-                "reference": "1483f0fd93c3cfa19b098cd34a69e3cbb10570bb"
+                "reference": "4736facf82ad3389450055eab096c5f17911851a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoast-dist/wordpress-seo/zipball/1483f0fd93c3cfa19b098cd34a69e3cbb10570bb",
-                "reference": "1483f0fd93c3cfa19b098cd34a69e3cbb10570bb",
+                "url": "https://api.github.com/repos/Yoast-dist/wordpress-seo/zipball/4736facf82ad3389450055eab096c5f17911851a",
+                "reference": "4736facf82ad3389450055eab096c5f17911851a",
                 "shasum": ""
             },
             "require": {
@@ -2502,7 +2523,7 @@
                 "source": "https://github.com/Yoast/wordpress-seo",
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki"
             },
-            "time": "2021-07-13T07:36:40+00:00"
+            "time": "2021-08-10T07:10:06+00:00"
         }
     ],
     "packages-dev": [
