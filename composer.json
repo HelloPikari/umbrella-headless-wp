@@ -58,7 +58,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:hellopikari/pikari-headless-wp-theme"
+            "url": "git@github.com:Pikari-Inc/pikari-headless-wp-theme"
         },
         {
             "type": "composer",
